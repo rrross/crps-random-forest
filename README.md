@@ -14,18 +14,18 @@ scikit-learn's `RandomForestRegressor` with a renamed loss function.
 
 ## Install from GitHub
 
-Replace `YOUR-ORG` with the account or organization owning the repository.
+Replace `rrross` with the account or organization owning the repository.
 After the first release tag is created, collaborators can install that version:
 
 ```bash
-python -m pip install "crps-random-forest @ git+https://github.com/YOUR-ORG/crps-random-forest.git@v0.1.0"
+python -m pip install "crps-random-forest @ git+https://github.com/rrross/crps-random-forest.git@v0.1.0"
 ```
 
 For a **private** repository, collaborators with GitHub access can install via
 SSH (after configuring GitHub SSH authentication):
 
 ```bash
-python -m pip install "crps-random-forest @ git+ssh://git@github.com/YOUR-ORG/crps-random-forest.git@v0.1.0"
+python -m pip install "crps-random-forest @ git+ssh://git@github.com/rrross/crps-random-forest.git@v0.1.0"
 ```
 
 Git and an appropriately configured SSH key are needed for the SSH option.
