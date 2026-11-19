@@ -4,8 +4,6 @@ A Python package providing `CRPSRandomForestRegressor`, a Numba-accelerated
 random forest that selects tree splits using a **CRPS-based criterion** and
 exposes empirical predictive distributions.
 
-This repository packages the authors' existing implementation; it is not
-scikit-learn's `RandomForestRegressor` with a renamed loss function.
 
 ## Requirements
 
@@ -14,23 +12,11 @@ scikit-learn's `RandomForestRegressor` with a renamed loss function.
 
 ## Install from GitHub
 
-Replace `rrross` with the account or organization owning the repository.
-After the first release tag is created, collaborators can install that version:
 
 ```bash
-python -m pip install "crps-random-forest @ git+https://github.com/rrross/crps-random-forest.git@v0.1.0"
+python -m pip install "crps-random-forest @ git+https://github.com/rrross/crps-random-forest.git"
 ```
 
-For a **private** repository, collaborators with GitHub access can install via
-SSH (after configuring GitHub SSH authentication):
-
-```bash
-python -m pip install "crps-random-forest @ git+ssh://git@github.com/rrross/crps-random-forest.git@v0.1.0"
-```
-
-Git and an appropriately configured SSH key are needed for the SSH option.
-You can also install directly from the default branch by omitting `@v0.1.0`,
-but version tags are more reproducible. You do **not** have to publish to PyPI.
 
 ## Local development
 
